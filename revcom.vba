@@ -36,6 +36,7 @@ Function revcom(input_str As String, Optional ByVal isRNA = 0)
 End Function
 
 Function complement(input_str As String, Optional ByVal isRNA = 0)
+
     ' convert lower case to upper case
     input_str = UCase(input_str)
 
